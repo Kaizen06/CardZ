@@ -1,0 +1,114 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    position: relative;
+    display: flex;
+    width: 350px;
+    height: 550px;
+    border: 1px solid black;
+    border-radius: 10% 0 10% 10%;
+    justify-content: center;
+    box-shadow: 10px 25px 5px rgb(68, 56, 56);
+}
+
+.threedot{
+    position: absolute;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.my_pfp{
+    position: absolute;
+    margin-top: 60px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.identity{
+    display: flex;
+
+}
+.name{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 170px;
+}
+.job{
+    position: absolute;
+    margin-top: 195px;
+    color: gray;
+}
+
+.information{
+    display: flex;
+    position: absolute;
+    margin-top: 230px;
+    column-gap: 35px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+}
+.following{
+    display: flex;
+    flex-direction: column;
+}
+.followers{
+    display: flex;
+    flex-direction: column;
+}
+
+.texter{
+    top: 10px;
+    margin: 5px;
+}
+
+.bio{
+    margin-top: 330px;
+    display: flex;
+    text-align: center;
+    color: gray;
+}
+
+.social_medias{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 420px;
+    column-gap: 10px;
+}
+
+.medias{
+    border-radius: 100%;
+}
+
+.view_pfp{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 470px;
+    border-radius: 25px;
+    border: 2px solid gray;
+}
+
+.texter{
+    color: gray;
+}
